@@ -1,6 +1,6 @@
 # Resource: S3 Bucket
 resource "aws_s3_bucket" "my_bucket_test" {
-  bucket = "my-tf-test-bucket-daspprem-29092021"
+  bucket = "daspprem_28122022"
   acl    = "public-read"
 
   tags = {
