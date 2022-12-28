@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "my_bucket_test" {
   acl    = "private"
 
   tags = {
-    Name        = "My bucket Test"
+    Name        = "StateFiles"
     Environment = "Dev"
   }
 }
